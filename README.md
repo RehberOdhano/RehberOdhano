@@ -1,7 +1,7 @@
 <!-- ### Hi there 👋, I'm Rehber Odhano -->
 <h3 align="center">Hi there 👋, I'm Rehber Odhano</h3>
 <h3 align="center">A Passionate Competitive Programmer, Mathematician and Full Stack Developer.</h3>
-<img align="center" alt="Programmer" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+<img align="right" alt="Programmer" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 ![Profile views](https://gpvc.arturio.dev/RehberOdhano)
 
