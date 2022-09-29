@@ -1,4 +1,3 @@
-<h3 align="left">About</h3>
 <img align="right" alt="Programmer" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 ![Profile views](https://gpvc.arturio.dev/RehberOdhano)
