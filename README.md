@@ -1,4 +1,7 @@
-<!-- <h2 align="left">About</h2> -->
+<!-- ![](https://camo.githubusercontent.com/5ddf73ad3a205111cf8c686f687fc216c2946a75005718c8da5b837ad9de78c9/68747470733a2f2f7468756d62732e6766796361742e636f6d2f4576696c4e657874446576696c666973682d736d616c6c2e676966)
+ -->
+<img src="https://camo.githubusercontent.com/5ddf73ad3a205111cf8c686f687fc216c2946a75005718c8da5b837ad9de78c9/68747470733a2f2f7468756d62732e6766796361742e636f6d2f4576696c4e657874446576696c666973682d736d616c6c2e676966" width="100%" height="100%">
+
 ## 👨‍💻 About Me
 <p align="left">I'm an enthusiastic person regarding Computer Science and Mathematics. I, eagerly & consistently, participate in programming & mathematics challenges. To foster my intelligence and brilliance, I've contested several programming competitions at diverse platforms such as ACM ICPC, Facebook Hacker Cup, Google Kickstart, Google CodeJam, International Youth Mathematics Challenge (IYMC), Hackerrank, CodeChef & Codeforces. I strive for practicable development, intuitive growth & creative experiences as a full‐stack developer, & seek to utilize broad educational background with excellent analytical, technical, and programming skills to thrive as a software engineer.</p>
 
