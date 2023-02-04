@@ -44,7 +44,11 @@
 </p>
 
 ## 🔥 Statistics
-![](https://github-readme-stats.vercel.app/api?username=RehberOdhano&theme=dracula&hide_border=false&include_all_commits=true&count_private=true) ![](https://github-readme-streak-stats.herokuapp.com/?user=RehberOdhano&theme=dracula&hide_border=false) ![](https://github-readme-stats.vercel.app/api/top-langs/?username=RehberOdhano&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<div style="display: flex; flex-direction: row;">
+  <img src="https://github-readme-stats.vercel.app/api?username=RehberOdhano&show_icons=true&theme=radical">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RehberOdhano&theme=radical&hide_border=false">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RehberOdhano&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact">
+</div>
 
 ## ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
