@@ -19,7 +19,7 @@ Hello... 👋 I'm Rehber Odhano... I'm an enthusiastic person regarding Computer
 <p align="left">
 <a href="https://twitter.com/rehberodhano" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="rehberodhano" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/rehber-odhano" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rehber-odhano" height="30" width="40" /></a>
-<a href="https://kaggle.com/rehberodhano" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="rehberodhano" height="30" width="40" /></a>
+<!-- <a href="https://kaggle.com/rehberodhano" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="rehberodhano" height="30" width="40" /></a> -->
 <!-- <a href="https://fb.com/rehberodhano" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="rehberodhano" height="30" width="40" /></a> -->
 <!-- <a href="https://instagram.com/rehberodhano" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rehberodhano" height="30" width="40" /></a> -->
 <a href="https://www.codechef.com/users/rehberodhano" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="rehberodhano" height="30" width="40" /></a>
@@ -40,7 +40,7 @@ Hello... 👋 I'm Rehber Odhano... I'm an enthusiastic person regarding Computer
 <!-- <p align="left">
   <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=nodejs,expressjs,laravel,jquery,bootstrap,vue,react,redux,babel,webpack,aws,gcp,figma,firebase,graphql,heroku,jest,postman,pytorch,rabbitmq,sass,tensorflow,flask,docker,git,github,html,css,latex,regex,mongodb,mysql,redis"/> </a> -->
   
-  <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=nodejs,expressjs,laravel,jquery,bootstrap,react,babel,webpack,aws,figma,jest,postman,rabbitmq,git,github,html,css,mongodb,mysql,redis"/> </a>
+  <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=nodejs,expressjs,laravel,jquery,bootstrap,react,aws,figma,jest,postman,rabbitmq,sass,git,github,html,css,mongodb,mysql,redis"/> </a>
 </p>
 
 ## 🧰 Miscellaneous
