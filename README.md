@@ -32,12 +32,15 @@ Hello... 👋 I'm Rehber Odhano... I'm an enthusiastic person regarding Computer
 
 ## 💻 Languages
 <p align="left">
-  <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=c,cpp,java,javascript,ts,python,php,bash,matlab" /> </a>
+<!--   <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=c,cpp,java,javascript,ts,python,php,bash,matlab" /> </a> -->
+  <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=c,cpp,java,javascript,python,php,bash,matlab" /> </a>
 </p>
 
 ## 🛠️ Tools & Technologies 
-<p align="left">
-  <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=nodejs,expressjs,laravel,jquery,bootstrap,vue,react,redux,babel,webpack,aws,gcp,figma,firebase,graphql,heroku,jest,postman,pytorch,rabbitmq,sass,tensorflow,flask,docker,git,github,html,css,latex,regex,mongodb,mysql,redis"/> </a>
+<!-- <p align="left">
+  <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=nodejs,expressjs,laravel,jquery,bootstrap,vue,react,redux,babel,webpack,aws,gcp,figma,firebase,graphql,heroku,jest,postman,pytorch,rabbitmq,sass,tensorflow,flask,docker,git,github,html,css,latex,regex,mongodb,mysql,redis"/> </a> -->
+  
+  <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=nodejs,expressjs,laravel,jquery,bootstrap,react,babel,webpack,aws,figma,jest,postman,rabbitmq,git,github,html,css,mongodb,mysql,redis"/> </a>
 </p>
 
 ## 🧰 Miscellaneous
