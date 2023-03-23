@@ -5,13 +5,13 @@
 Hello... 👋 I'm Rehber Odhano... I'm an enthusiastic person regarding Computer Science and Mathematics. I, eagerly & consistently, participate in programming & mathematics challenges. To foster my intelligence and brilliance, I've participated in several programming competitions at diverse platforms such as ACM ICPC, Facebook Hacker Cup, Google Kickstart, Google CodeJam, International Youth Mathematics Challenge (IYMC), Hackerrank, CodeChef & Codeforces. I strive for practicable development, intuitive growth & creative experiences as a full‐stack developer, & seek to utilize broad educational background with excellent analytical, technical, and programming skills to thrive as a software engineer.
 </p>
 
-- 🔭 I’m currently working on [Quick Response/Feedback Automation System (QRFS)](https://qrfs-frontend-final.vercel.app)
+<!-- - 🔭 I’m currently working on [Quick Response/Feedback Automation System (QRFS)](https://qrfs-frontend-final.vercel.app) -->
 - 🌱 I’m currently learning **everything... :)**
 - 👯 I’m looking to collaborate on **other developers**
 - 👨‍💻 All of my projects are available at [https://github.com/RehberOdhano](https://github.com/RehberOdhano)
 - 💬 Ask me about **Data Structures and Algorithms, Mathematics, C/C++, Java, Python and MERN stack**
-- 📫 How to reach me **rehber.odhano30@gamil.com**
-- 📄 Know about my experiences Currently working as an **SWE @ Vadion Pakistan**
+- 📫 How to reach me **rehber.odhano@softrove.com**
+- 📄 Know about my experiences Currently working as an **SWE @ Vadion Pakistan Pvt Ltd**
 - ⚡ Fun fact **I love to draw and solve problems**
 
 ## 🌐 Connect with me
