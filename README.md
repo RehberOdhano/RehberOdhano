@@ -24,10 +24,10 @@ Hello... 👋 I'm Rehber Odhano... I'm an enthusiastic person regarding Computer
 <!-- <a href="https://instagram.com/rehberodhano" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rehberodhano" height="30" width="40" /></a> -->
 <a href="https://www.codechef.com/users/rehberodhano" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="rehberodhano" height="30" width="40" /></a>
 <a href="https://www.hackerrank.com/rehber_odhano30" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="rehber_odhano30" height="30" width="40" /></a>
-<a href="https://codeforces.com/profile/rehber_odhano" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="rehber_odhano" height="30" width="40" /></a>
+<!-- <a href="https://codeforces.com/profile/rehber_odhano" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="rehber_odhano" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/rehber_odhano" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="rehber_odhano" height="30" width="40" /></a>
 <a href="https://www.hackerearth.com/rehber" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="rehber" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/rehberodhano2k" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="rehberodhano2k" height="30" width="40" /></a>
+<a href="https://auth.geeksforgeeks.org/user/rehberodhano2k" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="rehberodhano2k" height="30" width="40" /></a> -->
 </p>
 
 ## 💻 Languages
