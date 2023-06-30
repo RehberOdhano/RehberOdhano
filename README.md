@@ -43,10 +43,12 @@ Hello... 👋 I'm Rehber Odhano... I'm an enthusiastic person regarding Computer
   <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=spring,nodejs,expressjs,laravel,jquery,bootstrap,figma,jest,selenium,postman,rabbitmq,git,github,html,css,mongodb,mysql,redis"/> </a>
 </p>
 
+<!--
 ## 🧰 Miscellaneous
 <p align="left">
   <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=visualstudio,vim,idea,vscode,powershell,linux,atom" /> </a>
 </p>
+-->
 
 ## 🔥 Statistics
 <div style="display: flex; flex-direction: row;">
