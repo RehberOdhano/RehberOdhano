@@ -9,7 +9,7 @@ Hello... 👋 I'm Rehber Odhano... I'm an enthusiastic person regarding Computer
 - 🌱 I’m currently learning **everything... :)**
 - 👯 I’m looking to collaborate on **other developers**
 - 👨‍💻 All of my projects are available at [https://github.com/RehberOdhano](https://github.com/RehberOdhano)
-- 💬 Ask me about **Data Structures and Algorithms, Mathematics, C/C++, Java, Python and MERN stack**
+- 💬 Ask me about **Data Structures and Algorithms, Mathematics, C/C++, Java, Python and Backend Development (Node.js & Spring Boot)**
 - 📫 How to reach me **rehber.odhano@softrove.com**
 - 📄 Know about my experiences Currently working as an **SWE @ Vadion Pakistan Pvt Ltd**
 - ⚡ Fun fact **I love to draw and solve problems**
