@@ -9,7 +9,7 @@ Hello... 👋 I'm Rehber Odhano... I'm an enthusiastic person regarding Computer
 
 <!-- - 🔭 I’m currently working on [Quick Response/Feedback Automation System (QRFS)](https://qrfs-frontend-final.vercel.app) -->
 - 🌱 I’m currently learning **everything... :)**
-- 👯 I’m looking to collaborate on **other developers**
+- 👯 I’m looking to collaborate with **other developers**
 - 👨‍💻 All of my projects are available at [https://github.com/RehberOdhano](https://github.com/RehberOdhano)
 - 💬 Ask me about **Data Structures and Algorithms, Mathematics, C/C++, Java, Python and Backend Development (Node.js & Spring Boot)**
 - 📫 How to reach me **rehber.odhano@softrove.com**
