@@ -42,7 +42,7 @@ Hello... 👋 I'm Rehber Odhano... I'm an enthusiastic person regarding Computer
 <!-- <p align="left">
   <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=nodejs,expressjs,laravel,jquery,bootstrap,vue,react,redux,babel,webpack,aws,gcp,figma,firebase,graphql,heroku,jest,postman,pytorch,rabbitmq,sass,tensorflow,flask,docker,git,github,html,css,latex,regex,mongodb,mysql,redis"/> </a> -->
   
-  <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=spring,nodejs,expressjs,laravel,flask,jquery,bootstrap,jest,selenium,rabbitmq,git,github,mongodb,mysql,redis"/> </a>
+  <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=spring,nodejs,expressjs,laravel,flask,jquery,HTML,CSS,bootstrap,jest,selenium,rabbitmq,git,github,mongodb,mysql,redis,jenkins,githubactions"/> </a>
 </p>
 
 <!--
