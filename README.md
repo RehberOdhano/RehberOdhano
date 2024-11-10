@@ -8,10 +8,10 @@ Hello... 👋 I'm Rehber Odhano... I'm an enthusiastic person regarding Computer
 </p>
 
 <!-- - 🔭 I’m currently working on [Quick Response/Feedback Automation System (QRFS)](https://qrfs-frontend-final.vercel.app) -->
-- 🌱 I’m currently learning **everything... :)**
+- 🌱 I’m currently learning **Backend Systems**
 - 👯 I’m looking to collaborate with **other developers**
 - 👨‍💻 All of my projects are available at [https://github.com/RehberOdhano](https://github.com/RehberOdhano)
-- 💬 Ask me about **Data Structures and Algorithms, Mathematics, C/C++, Java, Python and Backend Development (Node.js, Spring Boot & Flask)**
+- 💬 Ask me about **Data Structures and Algorithms, Mathematics, C/C++, Java, Python and Backend Development (Node.js, Express.js, Spring Boot, Flask and FastAPI)**
 - 📫 How to reach me **rehber.odhano30@gmail.com**
 - 📄 Know about my experiences Currently working as an **SWE @ Vadion Pakistan Pvt Ltd**
 - ⚡ Fun fact **I love to solve problems**
