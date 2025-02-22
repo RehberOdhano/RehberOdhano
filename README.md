@@ -35,14 +35,14 @@ Hello... 👋 I'm Rehber Odhano... I'm an enthusiastic person regarding Computer
 ## 💻 Languages
 <p align="left">
 <!--   <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=c,cpp,java,javascript,ts,python,php,bash,matlab" /> </a> -->
-  <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=cpp,java,python,javascript,typescript" /> </a>
+  <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=cpp,java,python,javascript" /> </a>
 </p>
 
 ## 🛠️ Tools & Technologies 
 <!-- <p align="left">
   <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=nodejs,expressjs,laravel,jquery,bootstrap,vue,react,redux,babel,webpack,aws,gcp,figma,firebase,graphql,heroku,jest,postman,pytorch,rabbitmq,sass,tensorflow,flask,docker,git,github,html,css,latex,regex,mongodb,mysql,redis"/> </a> -->
   
-  <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=spring,nodejs,expressjs,fastapi,flask,jquery,html,css,bootstrap,jest,selenium,rabbitmq,git,github,mongodb,mysql,postgresql,redis,jenkins,githubactions,aws,nginx"/> </a>
+  <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=spring,nodejs,expressjs,fastapi,flask,jquery,html,css,bootstrap,jest,selenium,rabbitmq,git,github,mongodb,mysql,postgresql,redis,jenkins,aws,nginx"/> </a>
 </p>
 
 ## 🧰 Miscellaneous
