@@ -13,7 +13,7 @@ Hello... 👋 I'm Rehber Odhano... I'm an enthusiastic person regarding Computer
 - 👨‍💻 All of my projects are available at [https://github.com/RehberOdhano](https://github.com/RehberOdhano)
 - 💬 Ask me about **Data Structures and Algorithms, Mathematics, C/C++, Java, Python and Backend Development (Node.js, Express.js, Spring Boot, Flask and FastAPI)**
 - 📫 How to reach me **rehber.odhano30@gmail.com**
-- 📄 Know about my experiences Currently working as an **SWE @ Vadion Pakistan Pvt Ltd**
+- 📄 Know about my experiences Currently working as an **SWE @ Confiz Ltd**
 - ⚡ Fun fact **I love to solve problems**
 
 ## 🌐 Connect with me
