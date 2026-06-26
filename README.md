@@ -1,61 +1,65 @@
-<!--
-<img src="https://camo.githubusercontent.com/5ddf73ad3a205111cf8c686f687fc216c2946a75005718c8da5b837ad9de78c9/68747470733a2f2f7468756d62732e6766796361742e636f6d2f4576696c4e657874446576696c666973682d736d616c6c2e676966" width="100%">
- -->
+<h1 align="center">Rehber Odhano</h1>
 
-## 👨‍💻 About Me 
-<p align="left">
-Hello... 👋 I'm Rehber Odhano... I'm an enthusiastic person regarding Computer Science and Mathematics. I, eagerly & consistently, participate in programming & mathematics challenges. To foster my intelligence and brilliance, I've participated in several programming competitions at diverse platforms such as ACM ICPC, Facebook Hacker Cup, Google Kickstart, Google CodeJam, International Youth Mathematics Challenge (IYMC), Hackerrank, CodeChef & Codeforces. I strive for practicable development, intuitive growth & creative experiences as a full‐stack developer, & seek to utilize broad educational background with excellent analytical, technical, and programming skills to thrive as a software engineer.
+<p align="center">
+  Backend Software Engineer &nbsp;·&nbsp; Java & Spring Boot &nbsp;·&nbsp; Islamabad, Pakistan
 </p>
 
-<!-- - 🔭 I’m currently working on [Quick Response/Feedback Automation System (QRFS)](https://qrfs-frontend-final.vercel.app) -->
-- 🌱 I’m currently learning **Backend Systems**
-- 👯 I’m looking to collaborate with **other developers**
-- 👨‍💻 All of my projects are available at [https://github.com/RehberOdhano](https://github.com/RehberOdhano)
-- 💬 Ask me about **Data Structures and Algorithms, Mathematics, C/C++, Java, Python and Backend Development (Node.js, Express.js, Spring Boot, Flask and FastAPI)**
-- 📫 How to reach me **rehber.odhano30@gmail.com**
-- 📄 Know about my experiences Currently working as an **SWE @ Confiz Ltd**
-- ⚡ Fun fact **I love to solve problems**
-
-## 🌐 Connect with me
-<!-- <h2 align="left">Connect with me (Social & Coding Platforms)</h2> -->
-<p align="left">
-<!-- <a href="https://twitter.com/rehberodhano" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="rehberodhano" height="30" width="40" /></a> -->
-<a href="https://www.linkedin.com/in/rehber-rassani-646743224/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rehber-odhano" height="30" width="40" /></a>
-<!-- <a href="https://kaggle.com/rehberodhano" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="rehberodhano" height="30" width="40" /></a> -->
-<!-- <a href="https://fb.com/rehberodhano" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="rehberodhano" height="30" width="40" /></a> -->
-<!-- <a href="https://instagram.com/rehberodhano" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rehberodhano" height="30" width="40" /></a> -->
-<a href="https://www.codechef.com/users/rehberodhano" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="rehberodhano" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/rehber_odhano30" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="rehber_odhano30" height="30" width="40" /></a>
-<!-- <a href="https://codeforces.com/profile/rehber_odhano" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="rehber_odhano" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/rehber_odhano" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="rehber_odhano" height="30" width="40" /></a>
-<a href="https://www.hackerearth.com/rehber" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="rehber" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/rehberodhano2k" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="rehberodhano2k" height="30" width="40" /></a> -->
+<p align="center">
+  <a href="https://www.linkedin.com/in/rehber-odhano">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://www.hackerrank.com/rehber_odhano30">
+    <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://www.codechef.com/users/rehberodhano">
+    <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="mailto:rehber.odhano30@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
 </p>
 
-## 💻 Languages
-<p align="left">
-<!--   <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=c,cpp,java,javascript,ts,python,php,bash,matlab" /> </a> -->
-  <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=cpp,java,python,javascript" /> </a>
+---
+
+## About
+
+**Global Rank #1 on CodeChef** (10,715 participants) &nbsp;·&nbsp; **14th in Pakistan on Google Kick Start** &nbsp;·&nbsp; **ACM ICPC Regionalist**
+
+Backend Software Engineer with 3+ years building production systems in **Java** and **Spring Boot** — the kind where correctness isn't optional and silent failures aren't acceptable.
+
+The competitive programming background shapes how I approach engineering: edge cases aren't afterthoughts, constraints are design inputs, and the difference between a solution that works and one that holds under pressure is worth caring about.
+
+Currently going deep on **system design**, **distributed systems**, and **DSA** — building toward the engineering bar where the hard problems actually live.
+
+---
+
+## Tech Stack
+
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,python,cpp,javascript,typescript,spring,selenium,angular,html,css,mysql,postgresql,mongodb,redis,elasticsearch,aws,docker,jenkins,nginx,linux,git,github,bash,idea,vscode,visualstudio,postman" />
+  </a>
 </p>
 
-## 🛠️ Tools & Technologies 
-<!-- <p align="left">
-  <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=nodejs,expressjs,laravel,jquery,bootstrap,vue,react,redux,babel,webpack,aws,gcp,figma,firebase,graphql,heroku,jest,postman,pytorch,rabbitmq,sass,tensorflow,flask,docker,git,github,html,css,latex,regex,mongodb,mysql,redis"/> </a> -->
-  
-  <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=spring,nodejs,expressjs,fastapi,flask,jquery,html,css,bootstrap,jest,selenium,rabbitmq,git,github,mongodb,mysql,postgresql,redis,jenkins,aws,nginx"/> </a>
+<p>
+  <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat-square&logo=spring&logoColor=white" />
+  <img src="https://img.shields.io/badge/JWT%2FOAuth2-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
+  <img src="https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white" />
+  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black" />
+  <img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white" />
+  <img src="https://img.shields.io/badge/APM-EF5B25?style=flat-square&logo=elastic&logoColor=white" />
 </p>
 
-## 🧰 Miscellaneous
-<p align="left">
-  <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=linux,windows,ubuntu,idea,vscode,visualstudio,powershell,atom,sublime" /> </a>
+---
+
+## Statistics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=RehberOdhano&show_icons=true&theme=radical&hide_border=false" height="165" />
+  &nbsp;
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RehberOdhano&theme=radical&hide_border=false" height="165" />
 </p>
-
-## 🔥 Statistics
-<div style="display: flex; flex-direction: row;">
-  <img src="https://github-readme-stats.vercel.app/api?username=RehberOdhano&show_icons=true&theme=radical">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RehberOdhano&theme=radical&hide_border=false">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RehberOdhano&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact">
-</div>
-
-## ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
