@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/rehber-odhano">
+  <a href="[https://www.linkedin.com/in/rehber-odhano](https://www.linkedin.com/in/rehber-odhano-646743224/)">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;
