@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="[https://www.linkedin.com/in/rehber-odhano](https://www.linkedin.com/in/rehber-odhano-646743224/)">
+  <a href="https://www.linkedin.com/in/rehber-odhano-646743224/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;
@@ -27,12 +27,12 @@
 ## About
 
 **Global Rank #1 on CodeChef** (10,715 participants) &nbsp;·&nbsp; **14th in Pakistan on Google Kick Start** &nbsp;·&nbsp; **ACM ICPC Regionalist**
-
-Backend Software Engineer with 3+ years building production systems in **Java** and **Spring Boot** — the kind where correctness isn't optional and silent failures aren't acceptable.
-
-The competitive programming background shapes how I approach engineering: edge cases aren't afterthoughts, constraints are design inputs, and the difference between a solution that works and one that holds under pressure is worth caring about.
-
-Currently going deep on **system design**, **distributed systems**, and **DSA** — building toward the engineering bar where the hard problems actually live.
+ 
+I write backend code that ships, holds, and doesn't page anyone at 3am — because silent failures, edge cases, and "it works on my machine" are not a post-mortem I'm interested in writing.
+ 
+3+ years in **Java** and **Spring Boot**, on systems where correctness isn't a nice-to-have. Competitive programmer by training, which means constraints are design inputs and worst-case behaviour gets thought about before it becomes someone else's incident report.
+ 
+Currently going deep on **system design** and **distributed systems** — because good enough and production-ready are rarely the same sentence.
 
 ---
 
