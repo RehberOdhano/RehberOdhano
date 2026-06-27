@@ -1,7 +1,7 @@
 <h1 align="center">Rehber Odhano</h1>
 
 <p align="center">
-  Backend Software Engineer &nbsp;·&nbsp; Java & Spring Boot &nbsp;·&nbsp; Islamabad, Pakistan
+  Software Engineer &nbsp;·&nbsp; Java & Spring Boot &nbsp;·&nbsp; Islamabad, Pakistan
 </p>
 
 <div align="center"><a href="https://rehber-odhano-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a> <a href="https://www.linkedin.com/in/rehber-odhano-646743224/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a> <a href="https://www.hackerrank.com/rehber_odhano30"><img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/></a> <a href="https://www.codechef.com/users/rehberodhano"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/></a> <a href="mailto:rehber.odhano30@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a></div>
@@ -12,7 +12,7 @@
 
 I build backend systems in Java and Spring Boot designed around one principle: failure is not a release note.
 
-3+ years on systems where correctness isn't a nice-to-have. Competitive programmer by training — ranked **1st globally on CodeChef** and **14th in Pakistan on Google Kick Start** — which means constraints are design inputs and worst-case behaviour gets thought about before it becomes someone else's incident report.
+3.5+ years on systems where correctness isn't a nice-to-have. Competitive programmer by training — ranked **1st globally on CodeChef** and **14th in Pakistan on Google Kick Start** — which means constraints are design inputs and worst-case behaviour gets thought about before it becomes someone else's incident report.
 
 Currently going deep on **system design** and **distributed systems** — because working code and production-ready code are not the same thing, and the gap between them is where the real engineering happens.
 
