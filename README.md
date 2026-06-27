@@ -26,13 +26,11 @@
 
 ## About
 
-**Global Rank #1 on CodeChef** (10,715 participants) &nbsp;·&nbsp; **14th in Pakistan on Google Kick Start** &nbsp;·&nbsp; **ACM ICPC Regionalist**
+I build backend systems in Java and Spring Boot designed around one principle: failure is not a release note.
  
-I write backend code that ships, holds, and doesn't page anyone at 3am — because silent failures, edge cases, and "it works on my machine" are not a post-mortem I'm interested in writing.
+3+ years on systems where correctness isn't a nice-to-have. Competitive programmer by training — ranked **1st globally on CodeChef** and **14th in Pakistan on Google Kick Start** — which means constraints are design inputs and worst-case behaviour gets thought about before it becomes someone else's incident report.
  
-3+ years in **Java** and **Spring Boot**, on systems where correctness isn't a nice-to-have. Competitive programmer by training, which means constraints are design inputs and worst-case behaviour gets thought about before it becomes someone else's incident report.
- 
-Currently going deep on **system design** and **distributed systems** — because good enough and production-ready are rarely the same sentence.
+Currently going deep on **system design** and **distributed systems** — because working code and production-ready code are not the same thing, and the gap between them is where the real engineering happens.
 
 ---
 
