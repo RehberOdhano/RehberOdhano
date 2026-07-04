@@ -51,8 +51,8 @@ Currently going deep on **system design** and **distributed systems** — becaus
 </p>
 
 <p align="center">
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/generated/overview.svg#gh-dark-mode-only" alt="Rehber's GitHub stats overview" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/generated/overview.svg#gh-light-mode-only" alt="Rehber's GitHub stats overview" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/generated/languages.svg#gh-dark-mode-only" alt="Languages used by file size" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/generated/languages.svg#gh-light-mode-only" alt="Languages used by file size" />
+  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/generated/overview.svg#gh-dark-mode-only" width="49%" alt="Rehber's GitHub stats overview" />
+  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/generated/overview.svg#gh-light-mode-only" width="49%" alt="Rehber's GitHub stats overview" />
+  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/generated/languages.svg#gh-dark-mode-only" width="49%" alt="Languages used by file size" />
+  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/generated/languages.svg#gh-light-mode-only" width="49%" alt="Languages used by file size" />
 </p>
