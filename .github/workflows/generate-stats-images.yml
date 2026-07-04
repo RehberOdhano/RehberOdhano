@@ -54,9 +54,11 @@ jobs:
           import json
           import urllib.request
 
-          with urllib.request.urlopen(
-              "https://streak-stats.demolab.com/?user=RehberOdhano&type=json"
-          ) as resp:
+          req = urllib.request.Request(
+              "https://streak-stats.demolab.com/?user=RehberOdhano&type=json",
+              headers={"User-Agent": "Mozilla/5.0 (compatible; github-actions-workflow)"},
+          )
+          with urllib.request.urlopen(req) as resp:
               streak = json.load(resp)
 
           current = streak["currentStreak"]["length"]
