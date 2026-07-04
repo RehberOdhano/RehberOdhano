@@ -47,9 +47,7 @@ Currently going deep on **system design** and **distributed systems** — becaus
 ## Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RehberOdhano&show_icons=true&theme=radical&hide_border=false&cache_seconds=86400" height="165" alt="Rehber's GitHub stats" />
-  &nbsp;
-  <img src="https://streak-stats.demolab.com/?user=RehberOdhano&theme=radical&hide_border=false&cache_seconds=86400" height="165" alt="Rehber's GitHub streak stats" />
+  <img src="https://streak-stats.demolab.com/?user=RehberOdhano&theme=radical&hide_border=false&cache_seconds=86400&card_width=900" width="100%" alt="Rehber's GitHub streak stats" />
 </p>
 
 <p align="center">
