@@ -4,7 +4,7 @@
   Software Engineer &nbsp;·&nbsp; Java & Spring Boot &nbsp;·&nbsp; Islamabad, Pakistan
 </p>
 
-<div align="center"><a href="https://rehber-odhano-portfolio.vercel.app/"><img
+<div align="center"><a href="https://rehberodhano.com"><img
   src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a> <a href="https://www.linkedin.com/in/rehber-odhano-646743224/"><img
   src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a> <a href="https://www.hackerrank.com/rehber_odhano30"><img
   src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/></a> <a href="https://www.codechef.com/users/rehberodhano"><img
@@ -46,8 +46,5 @@ Currently going deep on **system design** and **distributed systems** — becaus
 
 ## Statistics
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RehberOdhano&show_icons=true&theme=radical&hide_border=false" height="165" />
-  &nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RehberOdhano&theme=radical&hide_border=false" height="165" />
+<p align="center"><img src="https://github.com/RehberOdhano/RehberOdhano/blob/generated/overview.svg#gh-dark-mode-only" width="50%" alt="Rehber's GitHub stats overview" /><img src="https://github.com/RehberOdhano/RehberOdhano/blob/generated/overview.svg#gh-light-mode-only" width="50%" alt="Rehber's GitHub stats overview" /><img src="https://github.com/RehberOdhano/RehberOdhano/blob/generated/languages.svg#gh-dark-mode-only" width="50%" alt="Languages used by file size" /><img src="https://github.com/RehberOdhano/RehberOdhano/blob/generated/languages.svg#gh-light-mode-only" width="50%" alt="Languages used by file size" />
 </p>
