@@ -47,7 +47,14 @@ Currently going deep on **system design** and **distributed systems** — becaus
 ## Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RehberOdhano&show_icons=true&theme=radical&hide_border=false" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=RehberOdhano&show_icons=true&theme=radical&hide_border=false&cache_seconds=86400" height="165" alt="Rehber's GitHub stats" />
   &nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RehberOdhano&theme=radical&hide_border=false" height="165" />
+  <img src="https://streak-stats.demolab.com/?user=RehberOdhano&theme=radical&hide_border=false&cache_seconds=86400" height="165" alt="Rehber's GitHub streak stats" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/generated/overview.svg#gh-dark-mode-only" alt="Rehber's GitHub stats overview" />
+  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/generated/overview.svg#gh-light-mode-only" alt="Rehber's GitHub stats overview" />
+  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/generated/languages.svg#gh-dark-mode-only" alt="Languages used by file size" />
+  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/generated/languages.svg#gh-light-mode-only" alt="Languages used by file size" />
 </p>
