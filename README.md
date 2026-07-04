@@ -4,8 +4,14 @@
   Software Engineer &nbsp;·&nbsp; Java & Spring Boot &nbsp;·&nbsp; Islamabad, Pakistan
 </p>
 
-<div align="center"><a href="https://rehber-odhano-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a> <a href="https://www.linkedin.com/in/rehber-odhano-646743224/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a> <a href="https://www.hackerrank.com/rehber_odhano30"><img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/></a> <a href="https://www.codechef.com/users/rehberodhano"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/></a> <a href="mailto:rehber.odhano30@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a></div>
-
+<div align="center"><a href="https://rehber-odhano-portfolio.vercel.app/"><img
+  src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a> <a href="https://www.linkedin.com/in/rehber-odhano-646743224/"><img
+  src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a> <a href="https://www.hackerrank.com/rehber_odhano30"><img
+  src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/></a> <a href="https://www.codechef.com/users/rehberodhano"><img
+  src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/></a> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rehber.odhano30@gmail
+  .com&su=Let%27s%20connect&body=Hi%20Rehber%2C%20I%20found%20your%20GitHub%20profile%20and%20wanted%20to%20connect." target="_blank" rel="noopener noreferrer"><img
+  src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a></div>
+  
 ---
 
 ## About
