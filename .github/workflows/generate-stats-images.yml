@@ -108,6 +108,18 @@ jobs:
 
           with open("overview.svg", "w", encoding="utf-8") as f:
               f.write(svg)
+
+          # Match languages.svg's height to the now-taller overview card so
+          # the two sit flush when displayed side by side.
+          with open("languages.svg", encoding="utf-8") as f:
+              lang_svg = f.read()
+
+          lang_svg = lang_svg.replace(
+              'width="360" height="210"', 'width="360" height="258"', 1
+          )
+
+          with open("languages.svg", "w", encoding="utf-8") as f:
+              f.write(lang_svg)
           PYEOF
 
       - name: Commit and push
