@@ -2,7 +2,7 @@ name: Generate GitHub Stats Images
 
 on:
   schedule:
-    - cron: "5 0 * * *"  # daily
+    - cron: "5 0 1 * *"  # monthly, 1st of the month
   workflow_dispatch:
   push:
     branches:
@@ -47,84 +47,194 @@ jobs:
           EXCLUDE_REPOS: ${{ secrets.EXCLUDE_REPOS }}
           EXCLUDE_LANGS: ${{ secrets.EXCLUDE_LANGS }}
           SILENT: "true"
+          # JSON_OUTPUT_FILE: "stats.json"  # only needed by the disabled breakdown step below
 
-      - name: Add streak stats to overview card
-        run: |
-          python3 - <<'PYEOF'
-          import json
-          import urllib.request
+      # PR/Issues/Code Reviews breakdown — disabled 2026-07-19.
+      # Reverted in favor of the original combined "All-time contributions"
+      # row: individual PR/issue/review counts were too sparse to be useful
+      # on their own. Kept here commented out so it can be restored later
+      # by uncommenting this whole step (and the JSON_OUTPUT_FILE env var
+      # above, in the "Generate images" step).
+#       - name: Add contribution breakdown to overview card
+#         run: |
+#           python3 - <<'PYEOF'
+#           import json
+#           import re
+#
+#           with open("stats.json", encoding="utf-8") as f:
+#               stats = json.load(f)
+#
+#           commits = f'{stats["commit_contributions"]:,}'
+#           pull_requests = f'{stats["pr_contributions"]:,}'
+#           issues = f'{stats["issue_contributions"]:,}'
+#           reviews = f'{stats["review_contributions"]:,}'
+#
+#           commit_icon = (
+#               '<svg class="octicon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" '
+#               'width="16" height="16"><path d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 '
+#               '0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5Zm-1.43-.75a2.5 '
+#               '2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z"></path></svg>'
+#           )
+#           pr_icon = (
+#               '<svg class="octicon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" '
+#               'width="16" height="16"><path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 '
+#               '2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 '
+#               '0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 '
+#               '0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a'
+#               '.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 '
+#               '0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"></path></svg>'
+#           )
+#           issue_icon = (
+#               '<svg class="octicon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" '
+#               'width="16" height="16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z">'
+#               '</path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 '
+#               '6.5 0 0 0-13 0Z"></path></svg>'
+#           )
+#           review_icon = (
+#               '<svg class="octicon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" '
+#               'width="16" height="16"><path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 '
+#               '1.75 0 0 1 14.25 13H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 '
+#               '1.75 0 0 1 0 11.25v-8.5C0 1.784.784 1 1.75 1ZM1.5 2.75v8.5c0 .138.112.25.25.25h2'
+#               'a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 '
+#               '.25-.25v-8.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Zm5.28 1.72a.75.75 0 0 '
+#               '1 0 1.06L5.31 7l1.47 1.47a.751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018l-2-2'
+#               'a.75.75 0 0 1 0-1.06l2-2a.75.75 0 0 1 1.06 0Zm2.44 0a.75.75 0 0 1 1.06 0l2 2a.75'
+#               '.75 0 0 1 0 1.06l-2 2a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L10.69 7 '
+#               '9.22 5.53a.75.75 0 0 1 0-1.06Z"></path></svg>'
+#           )
+#
+#           new_rows = (
+#               f'<tr style="animation-delay: 300ms"><td>{commit_icon}Commits</td>'
+#               f'<td>{commits}</td></tr>\n\n'
+#               f'<tr style="animation-delay: 450ms"><td>{pr_icon}Pull requests</td>'
+#               f'<td>{pull_requests}</td></tr>\n\n'
+#               f'<tr style="animation-delay: 600ms"><td>{issue_icon}Issues opened</td>'
+#               f'<td>{issues}</td></tr>\n\n'
+#               f'<tr style="animation-delay: 750ms"><td>{review_icon}Code reviews</td>'
+#               f'<td>{reviews}</td></tr>'
+#           )
+#
+#           with open("overview.svg", encoding="utf-8") as f:
+#               svg = f.read()
+#
+#           # Shift the three rows after "All-time contributions" to make room for
+#           # the four breakdown rows replacing it.
+#           svg = svg.replace('animation-delay: 450ms', 'animation-delay: 900ms', 1)
+#           svg = svg.replace('animation-delay: 600ms', 'animation-delay: 1050ms', 1)
+#           svg = svg.replace('animation-delay: 750ms', 'animation-delay: 1200ms', 1)
+#
+#           svg, replaced = re.subn(
+#               r'<tr style="animation-delay: 300ms"><td>.*?All-time contributions</td>'
+#               r'<td>[^<]*</td></tr>',
+#               new_rows,
+#               svg,
+#               count=1,
+#               flags=re.S,
+#           )
+#           if replaced != 1:
+#               raise RuntimeError(
+#                   "overview.svg: could not find the All-time contributions row to replace"
+#               )
+#
+#           svg = svg.replace('width="360" height="210"', 'width="360" height="282"', 1)
+#           svg = svg.replace('width="318" height="168"', 'width="318" height="240"', 1)
+#
+#           with open("overview.svg", "w", encoding="utf-8") as f:
+#               f.write(svg)
+#
+#           # Match languages.svg's height to the now-taller overview card so
+#           # the two sit flush when displayed side by side.
+#           with open("languages.svg", encoding="utf-8") as f:
+#               lang_svg = f.read()
+#
+#           lang_svg = lang_svg.replace(
+#               'width="360" height="210"', 'width="360" height="282"', 1
+#           )
+#
+#           with open("languages.svg", "w", encoding="utf-8") as f:
+#               f.write(lang_svg)
+#           PYEOF
 
-          req = urllib.request.Request(
-              "https://streak-stats.demolab.com/?user=RehberOdhano&type=json",
-              headers={"User-Agent": "Mozilla/5.0 (compatible; github-actions-workflow)"},
-          )
-          with urllib.request.urlopen(req) as resp:
-              streak = json.load(resp)
-
-          current = streak["currentStreak"]["length"]
-          longest = streak["longestStreak"]["length"]
-
-          flame_icon = (
-              '<svg class="octicon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" '
-              'width="16" height="16"><path d="M9.533.753V.752c.217 2.385 1.463 3.626 2.653 '
-              '4.81C13.37 6.74 14.498 7.863 14.498 10c0 3.5-3 6-6.5 6S1.5 13.512 1.5 10c0-1.298'
-              '.536-2.56 1.425-3.286.376-.308.862 0 1.035.454C4.46 8.487 5.581 8.419 6 8c.282-'
-              '.282.341-.811-.003-1.5C4.34 3.187 7.035.75 8.77.146c.39-.137.726.194.763.607Z'
-              'M7.998 14.5c2.832 0 5-1.98 5-4.5 0-1.463-.68-2.19-1.879-3.383l-.036-.037c-1.013'
-              '-1.008-2.3-2.29-2.834-4.434-.322.256-.63.579-.864.953-.432.696-.621 1.58-.046 '
-              '2.73.473.947.67 2.284-.278 3.232-.61.61-1.545.84-2.403.633a2.79 2.79 0 0 1-1.436'
-              '-.874A3.198 3.198 0 0 0 3 10c0 2.53 2.164 4.5 4.998 4.5Z"></path></svg>'
-          )
-          trophy_icon = (
-              '<svg class="octicon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" '
-              'width="16" height="16"><path d="M3.217 6.962A3.75 3.75 0 0 1 0 3.25v-.5C0 1.784'
-              '.784 1 1.75 1h1.356c.228-.585.796-1 1.462-1h6.864c.647 0 1.227.397 1.462 1h1.356'
-              'c.966 0 1.75.784 1.75 1.75v.5a3.75 3.75 0 0 1-3.217 3.712 5.014 5.014 0 0 1-2.771'
-              ' 3.117l.144 1.446c.005.05.03.12.114.204.086.087.217.17.373.227.283.103.618.274.89'
-              '.568.285.31.467.723.467 1.226v.75h1.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5'
-              'H4v-.75c0-.503.182-.916.468-1.226.27-.294.606-.465.889-.568.139-.048.266-.126.373'
-              '-.227.084-.085.109-.153.114-.204l.144-1.446a5.015 5.015 0 0 1-2.77-3.117ZM4.5 1.568'
-              'V5.5a3.5 3.5 0 1 0 7 0V1.568a.068.068 0 0 0-.068-.068H4.568a.068.068 0 0 0-.068.068'
-              'Zm2.957 8.902-.12 1.204c-.093.925-.858 1.47-1.467 1.691a.766.766 0 0 0-.3.176c-.037'
-              '.04-.07.093-.07.21v.75h5v-.75c0-.117-.033-.17-.07-.21a.766.766 0 0 0-.3-.176c-.609'
-              '-.221-1.374-.766-1.466-1.69l-.12-1.204a5.064 5.064 0 0 1-1.087 0ZM13 2.5v2.872a2.25'
-              ' 2.25 0 0 0 1.5-2.122v-.5a.25.25 0 0 0-.25-.25H13Zm-10 0H1.75a.25.25 0 0 0-.25.25'
-              'v.5c0 .98.626 1.813 1.5 2.122Z"></path></svg>'
-          )
-
-          new_rows = (
-              f'\n<tr style="animation-delay: 900ms"><td>{flame_icon}Current streak</td>'
-              f'<td>{current}</td></tr>\n'
-              f'\n<tr style="animation-delay: 1050ms"><td>{trophy_icon}Longest streak</td>'
-              f'<td>{longest}</td></tr>\n'
-          )
-
-          with open("overview.svg", encoding="utf-8") as f:
-              svg = f.read()
-
-          svg = svg.replace("</tbody>", new_rows + "</tbody>", 1)
-          svg = svg.replace('width="360" height="210"', 'width="360" height="258"', 1)
-          svg = svg.replace('width="318" height="168"', 'width="318" height="216"', 1)
-
-          with open("overview.svg", "w", encoding="utf-8") as f:
-              f.write(svg)
-
-          # Match languages.svg's height to the now-taller overview card so
-          # the two sit flush when displayed side by side.
-          with open("languages.svg", encoding="utf-8") as f:
-              lang_svg = f.read()
-
-          lang_svg = lang_svg.replace(
-              'width="360" height="210"', 'width="360" height="258"', 1
-          )
-
-          with open("languages.svg", "w", encoding="utf-8") as f:
-              f.write(lang_svg)
-          PYEOF
+      # Streak stats (current/longest) card addition — disabled 2026-07-18.
+      # Deemed low-signal for this profile; kept here commented out so it
+      # can be restored later by uncommenting this whole step.
+#       - name: Add streak stats to overview card
+#         run: |
+#           python3 - <<'PYEOF'
+#           import json
+#           import urllib.request
+#
+#           req = urllib.request.Request(
+#               "https://streak-stats.demolab.com/?user=RehberOdhano&type=json",
+#               headers={"User-Agent": "Mozilla/5.0 (compatible; github-actions-workflow)"},
+#           )
+#           with urllib.request.urlopen(req) as resp:
+#               streak = json.load(resp)
+#
+#           current = streak["currentStreak"]["length"]
+#           longest = streak["longestStreak"]["length"]
+#
+#           flame_icon = (
+#               '<svg class="octicon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" '
+#               'width="16" height="16"><path d="M9.533.753V.752c.217 2.385 1.463 3.626 2.653 '
+#               '4.81C13.37 6.74 14.498 7.863 14.498 10c0 3.5-3 6-6.5 6S1.5 13.512 1.5 10c0-1.298'
+#               '.536-2.56 1.425-3.286.376-.308.862 0 1.035.454C4.46 8.487 5.581 8.419 6 8c.282-'
+#               '.282.341-.811-.003-1.5C4.34 3.187 7.035.75 8.77.146c.39-.137.726.194.763.607Z'
+#               'M7.998 14.5c2.832 0 5-1.98 5-4.5 0-1.463-.68-2.19-1.879-3.383l-.036-.037c-1.013'
+#               '-1.008-2.3-2.29-2.834-4.434-.322.256-.63.579-.864.953-.432.696-.621 1.58-.046 '
+#               '2.73.473.947.67 2.284-.278 3.232-.61.61-1.545.84-2.403.633a2.79 2.79 0 0 1-1.436'
+#               '-.874A3.198 3.198 0 0 0 3 10c0 2.53 2.164 4.5 4.998 4.5Z"></path></svg>'
+#           )
+#           trophy_icon = (
+#               '<svg class="octicon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" '
+#               'width="16" height="16"><path d="M3.217 6.962A3.75 3.75 0 0 1 0 3.25v-.5C0 1.784'
+#               '.784 1 1.75 1h1.356c.228-.585.796-1 1.462-1h6.864c.647 0 1.227.397 1.462 1h1.356'
+#               'c.966 0 1.75.784 1.75 1.75v.5a3.75 3.75 0 0 1-3.217 3.712 5.014 5.014 0 0 1-2.771'
+#               ' 3.117l.144 1.446c.005.05.03.12.114.204.086.087.217.17.373.227.283.103.618.274.89'
+#               '.568.285.31.467.723.467 1.226v.75h1.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5'
+#               'H4v-.75c0-.503.182-.916.468-1.226.27-.294.606-.465.889-.568.139-.048.266-.126.373'
+#               '-.227.084-.085.109-.153.114-.204l.144-1.446a5.015 5.015 0 0 1-2.77-3.117ZM4.5 1.568'
+#               'V5.5a3.5 3.5 0 1 0 7 0V1.568a.068.068 0 0 0-.068-.068H4.568a.068.068 0 0 0-.068.068'
+#               'Zm2.957 8.902-.12 1.204c-.093.925-.858 1.47-1.467 1.691a.766.766 0 0 0-.3.176c-.037'
+#               '.04-.07.093-.07.21v.75h5v-.75c0-.117-.033-.17-.07-.21a.766.766 0 0 0-.3-.176c-.609'
+#               '-.221-1.374-.766-1.466-1.69l-.12-1.204a5.064 5.064 0 0 1-1.087 0ZM13 2.5v2.872a2.25'
+#               ' 2.25 0 0 0 1.5-2.122v-.5a.25.25 0 0 0-.25-.25H13Zm-10 0H1.75a.25.25 0 0 0-.25.25'
+#               'v.5c0 .98.626 1.813 1.5 2.122Z"></path></svg>'
+#           )
+#
+#           new_rows = (
+#               f'\n<tr style="animation-delay: 900ms"><td>{flame_icon}Current streak</td>'
+#               f'<td>{current}</td></tr>\n'
+#               f'\n<tr style="animation-delay: 1050ms"><td>{trophy_icon}Longest streak</td>'
+#               f'<td>{longest}</td></tr>\n'
+#           )
+#
+#           with open("overview.svg", encoding="utf-8") as f:
+#               svg = f.read()
+#
+#           svg = svg.replace("</tbody>", new_rows + "</tbody>", 1)
+#           svg = svg.replace('width="360" height="210"', 'width="360" height="258"', 1)
+#           svg = svg.replace('width="318" height="168"', 'width="318" height="216"', 1)
+#
+#           with open("overview.svg", "w", encoding="utf-8") as f:
+#               f.write(svg)
+#
+#           # Match languages.svg's height to the now-taller overview card so
+#           # the two sit flush when displayed side by side.
+#           with open("languages.svg", encoding="utf-8") as f:
+#               lang_svg = f.read()
+#
+#           lang_svg = lang_svg.replace(
+#               'width="360" height="210"', 'width="360" height="258"', 1
+#           )
+#
+#           with open("languages.svg", "w", encoding="utf-8") as f:
+#               f.write(lang_svg)
+#           PYEOF
 
       - name: Commit and push
         run: |
-          rm -f github-stats
+          rm -f github-stats stats.json
           git add overview.svg languages.svg
           git commit -m "chore: update generated stats images" || true
           git push --set-upstream origin generated

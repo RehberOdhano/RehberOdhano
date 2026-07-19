@@ -1,7 +1,8 @@
 <h1 align="center">Rehber Odhano</h1>
 
 <p align="center">
-  Software Engineer &nbsp;·&nbsp; Java & Spring Boot &nbsp;·&nbsp; Islamabad, Pakistan
+  <!-- Software Engineer &nbsp;·&nbsp; Java & Spring Boot &nbsp;·&nbsp; Islamabad, Pakistan -->
+  Software Engineer &nbsp;·&nbsp; Building reliable systems, engineered to ship and hold
 </p>
 
 <div align="center"><a href="https://rehberodhano.com"><img
