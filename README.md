@@ -34,12 +34,7 @@ Currently going deep on **system design** and **distributed systems** — becaus
 </p>
 
 <p>
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/spring-security.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/spring-data-jpa.svg" />
   <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/jwt-oauth2.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/junit5.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/swagger.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/sonarqube.svg" />
   <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/apm.svg" />
 </p>
 
