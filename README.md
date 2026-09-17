@@ -6,10 +6,10 @@
 </p>
 
 <div align="center"><a href="https://rehberodhano.com"><img
-  src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/portfolio.svg"/></a> <a href="https://www.linkedin.com/in/rehber-odhano-646743224/"><img
-  src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/linkedin.svg"/></a> <a href="https://www.hackerrank.com/rehber_odhano30"><img
-  src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/hackerrank.svg"/></a> <a href="https://www.codechef.com/users/rehberodhano"><img
-  src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/codechef.svg"/></a> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rehber.odhano30@gmail
+  src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/portfolio.svg"/></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/rehber-odhano-646743224/"><img
+  src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/linkedin.svg"/></a>&nbsp;&nbsp;<a href="https://www.hackerrank.com/rehber_odhano30"><img
+  src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/hackerrank.svg"/></a>&nbsp;&nbsp;<a href="https://www.codechef.com/users/rehberodhano"><img
+  src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/codechef.svg"/></a>&nbsp;&nbsp;<a href="https://mail.google.com/mail/?view=cm&fs=1&to=rehber.odhano30@gmail
   .com&su=Let%27s%20connect&body=Hi%20Rehber%2C%20I%20found%20your%20GitHub%20profile%20and%20wanted%20to%20connect." target="_blank" rel="noopener noreferrer"><img
   src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/gmail.svg"/></a></div>
   
@@ -33,29 +33,6 @@ Currently going deep on **system design** and **distributed systems** — becaus
   <a href="https://skillicons.dev">
     <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/tech-stack/skillicons.svg" />
   </a>
-</p>
-
-<p>
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/spring-security.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/spring-data-jpa.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/jwt-oauth2.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/blazor.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/hono.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/typeorm.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/sqlalchemy.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/zod.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/pydantic.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/gunicorn.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/shadcn-ui.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/junit5.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/swagger.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/sonarqube.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/apm.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/openai-apis.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/github-copilot.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/cursor.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/claude-code.svg" />
-  <img src="https://github.com/RehberOdhano/RehberOdhano/blob/main/assets/badges/warp.svg" />
 </p>
 
 ---
