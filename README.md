@@ -21,7 +21,7 @@ I build systems in Java/Spring Boot and C#/.NET, along with the Angular frontend
  
 Over 3.5+ years, that's meant multi-factor authentication running in production, payment pipelines that always terminate, webhook delivery that survives third-party outages, validation that stops bad data before it lands, and hotel-integration automation across 21 hotels and 20+ booking sources. The stack changes (Node.js, Express.js, React.js, Python/FastAPI); the standard doesn't.
  
-Competitive programmer by training: 1st out of 10,715 participants in CodeChef's March Long Challenge (Division 4), an ACM ICPC Regionalist, and 14th in Pakistan on Google Kick Start. That means constraints are design inputs, and worst-case behaviour gets thought about before it becomes someone else's incident report.
+Competitive programmer by training: 1st out of 10,715 participants in CodeChef's March Long One (Division 4), an ACM ICPC Regionalist, and 14th in Pakistan on Google Kick Start. That means constraints are design inputs, and worst-case behaviour gets thought about before it becomes someone else's incident report.
  
 Currently going deep on **system design**, **distributed systems**, and **data structures & algorithms**, because working code and production-ready code are not the same thing, and the gap between them is where the real engineering happens.
 
