@@ -19,11 +19,11 @@
 
 I build systems in Java and Spring Boot, along with the Angular frontends running on top of them, around one principle: failure is not a release note, it's a design flaw.
  
-Over 3.5+ years that's meant validation pipelines that catch bad data before it lands, notification delivery that survives server crashes without losing a message, and account-security layers that close real attack surfaces — plus hotel-integration workflows across 21 hotels in the UK, US, and Singapore. The stack changes — .NET, Node.js, Express.js, React.js, Python/FastAPI — the standard doesn't.
+Over 3.5+ years that's meant validation pipelines that catch bad data before it lands, notification delivery that survives server crashes without losing a message, and account-security layers that close real attack surfaces — plus hotel-integration automation across 21 hotels and 20+ booking sources. The stack changes — .NET, Node.js, Express.js, React.js, Python/FastAPI — the standard doesn't.
  
 Competitive programmer by training — 1st out of 10,715 participants in CodeChef's March Long Challenge (Division 4), an ACM ICPC Regionalist, and 14th in Pakistan on Google Kick Start — which means constraints are design inputs and worst-case behaviour gets thought about before it becomes someone else's incident report.
  
-Currently going deep on **system design** and **distributed systems** — because working code and production-ready code are not the same thing, and the gap between them is where the real engineering happens.
+Currently going deep on **system design**, **distributed systems** and **data structures & algorithms** — because working code and production-ready code are not the same thing, and the gap between them is where the real engineering happens.
 
 ---
 
